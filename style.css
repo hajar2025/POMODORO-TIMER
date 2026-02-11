@@ -1,0 +1,46 @@
+
+#title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#txt{
+    text-align: center;
+    font-size: 50px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+button{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+button :hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+#start{
+    background-color: rgb(9, 163, 9);
+}
+#start:hover{
+    background-color: rgb(7, 141, 7);
+}
+#stop{
+    background-color:rgb(233, 6, 6);
+}
+#stop:hover{
+    background-color:rgb(185, 4, 4);
+}
+#reset{
+    background-color: gray;
+}
+#reset:hover{
+    background-color: rgb(104, 103, 103);
+}
